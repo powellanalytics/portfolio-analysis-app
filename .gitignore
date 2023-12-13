@@ -10,6 +10,8 @@ __pycache__/
 .ipynb_checkpoints/
 #.ipynb_files/
 
+# Ignore CSV dumps used for development and testing
+csv_dumps/
 
 # Ignore local development settings
 settings.ini
