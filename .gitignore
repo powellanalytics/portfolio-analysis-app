@@ -6,6 +6,11 @@ venv/
 *.pyo
 __pycache__/
 
+# Ignore Jupiter Notebook files
+.ipynb_checkpoints/
+#.ipynb_files/
+
+
 # Ignore local development settings
 settings.ini
 
