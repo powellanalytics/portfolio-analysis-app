@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore local development settings
+settings.ini
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore package lock files
+pip-lock.txt
+poetry.lock
+
+# Ignore any other files or directories specific to your project
