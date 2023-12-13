@@ -1,6 +1,9 @@
 # Ignore Python virtual environment
 venv/
 
+# Ignore environment file
+.env
+
 # Ignore compiled Python files
 *.pyc
 *.pyo
@@ -12,6 +15,9 @@ __pycache__/
 
 # Ignore CSV dumps used for development and testing
 csv_dumps/
+
+# Ignore Snowflake config files
+.snowflake/
 
 # Ignore local development settings
 settings.ini
